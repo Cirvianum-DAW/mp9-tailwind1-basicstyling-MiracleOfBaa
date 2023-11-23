@@ -7,28 +7,28 @@
     <title>Tailwind Showcase</title>
   </head>
   <body>
-    <div class="container mx-auto py-8">
-      <h1>Tailwind Showcase</h1>
-      <div>
-        <h2>Colors and Backgrounds</h2>
-        <div>
-          <div class="container py-8 bg-gray-100 border-2 border-gray-200"> </div>
-          <div class="container py-8 bg-red-200 border-2 border-red-300"> </div>
-          <div class="container py-8 bg-amber-200 border-2 border-amber-300"> </div>
-          <div class="container py-8 bg-green-200 border-2 border-green-300"> </div>
+    <div class="container mx-auto pt-4">
+      <h1 class="font-bold text-2xl pt-6 pb-3">Tailwind Showcase</h1>
+      <div class="bg-gray-100 pb-4 mb-4">
+        <h2 class="font-bold text-lg pt-4 px-3">Colors and Backgrounds</h2>
+        <div class="container pt-3 flex px-3">
+          <div class="container bg-gray-100 border-2 border-gray-300"> </div>
+          <div class="container bg-red-100 border-2 border-red-300"> </div>
+          <div class="container bg-amber-100 border-2 border-amber-300"> </div>
+          <div class="container py-7 px-2 bg-green-100 border-2 border-green-300"> </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div class="container py-8 bg-stone-100bg border-2 border-gray-200"> </div>
-          <div class="container py-8 bg-gray-100 border-2 border-stone-300"> </div>
-          <div class="container py-8 bg-gray-500 border-2 border-gray-600"> </div>
-          <div class="container py-8 bg-gray-600 border-2 border-gray-700"> </div>
+      <div class="bg-gray-100 mb-5">
+        <div class="container py-5 flex px-3">
+          <div class="container  bg-gray-100 border-2 border-gray-300"> </div>
+          <div class="container bg-gray-200 border-2 border-gray-300"> </div>
+          <div class="container bg-gray-300 border-2 border-gray-300"> </div>
+          <div class="container py-8 bg-gray-400 border-2 border-gray-400"> </div>
     
         </div>
       </div>
-      <div>
-        <h2 class="font-bold">Text</h2>
+      <div class="container py-3 px-3 bg-gray-100">
+        <h2 class="font-bold pb-2 text-xl">Text</h2>
         <p class="text-sm">This is a small text.</p>
         <p class="text-base">This is a base text.</p>
         <p class="text-lg">This is a large text.</p>
@@ -39,42 +39,42 @@
         <p class="text-8xl">This is a 8x extra large text.</p>
         <p class="text-9xl">This is a 9x extra large text.</p>
       </div>
-      <div>
-        <h2 class="font-bold">Text Decoration</h2>
-        <p>This is an underlined text.</p>
-        <p>This is a line-through text.</p>
-        <p>This is an underlined and line-through text.</p>
+      <div class="bg-gray-100 px-3 py-4 mt-5">
+        <h2 class="font-bold text-xl pb-2">Text Decoration</h2>
+        <p class="underline">This is an underlined text.</p>
+        <p class="line-through">This is a line-through text.</p>
+        <p class="line-through underline">This is an underlined and line-through text.</p>
       </div>
-      <div>
-        <h2 class="font-bold">Text Alignment</h2>
-        <p>This is a left-aligned text.</p>
-        <p>This is a center-aligned text.</p>
-        <p>This is a right-aligned text.</p>
+      <div class="bg-gray-100 px-3 py-3 mt-5">
+        <h2 class="font-bold text-xl pb-2">Text Alignment</h2>
+        <p class="text-left">This is a left-aligned text.</p>
+        <p class="text-center">This is a center-aligned text.</p>
+        <p class="text-right">This is a right-aligned text.</p>
       </div>
-      <div>
-        <h2 class="font-bold">Sizes</h2>
-        <div>
-          <div>XS</div>
-          <div>SM</div>
-          <div>BASE</div>
-          <div>LG</div>
+      <div class="bg-gray-100 pb-4 mt-5 pt-3">
+        <h2 class="font-bold text-xl px-3">Sizes</h2>
+        <div class="container pt-3 flex px-3">
+          <div class="container py-5 px-2 bg-gray-100 border-2 border-gray-200 text-center">XS</div>
+          <div class="container py-5 px-2 bg-gray-200 border-2 border-gray-300 text-center">SM</div>
+          <div class="container py-5 px-2 bg-gray-300 border-2 border-gray-400 text-center">BASE</div>
+          <div class="container py-5 px-2 bg-gray-400 border-2 border-gray-400 text-center">LG</div>
+        </div>
+      </div>
+      <div class="bg-gray-100 pb-4 mt-5 pt-3">
+        <h2 class="font-bold text-xl px-3">Borders</h2>
+        <div class="container pt-3 flex px-3">
+          <div class="container py-5 px-2 bg-gray-100 border-2 border-gray-200 text-center"></div>
+          <div class="container py-5 px-2 bg-gray-200 border-2 rounded-sm border-gray-300 text-center"></div>
+          <div class="container py-5 px-2 bg-gray-300 border-2 rounded-md border-gray-400 text-center"></div>
+          <div class="container py-5 px-2 bg-gray-400 border-2 rounded-3xl border-gray-400 text-center"></div>
         </div>
       </div>
       <div>
-        <h2 class="font-bold">Borders</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <h2 class="font-bold">Margin</h2>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="bg-gray-100 pb-2 mt-5 pt-12 px-9">
+          <h2 class="font-bold text-xl pb-3">Margin</h2>
+          <div class="container bg-gray-100 border-2 border-gray-200 mx-1.5 px-3">This div has a margin of 1.5 rem on all sides.</div>
+          <div class="container bg-gray-200 border-2 border-gray-200 mx-1.5 px-3">this div has a horizontal margin of 1.5rem and a vertical margin of 3rem.</div>
+          <div class="container bg-gray-200 border-2 border-gray-200 mx-1.5 px-3">This div has a margin of 1rem on the top, 2rem of the right, 3rem on the bottom, and 4rem on the left.</div>
         </div>
         <div>
           <h2 class="font-bold">Padding</h2>
